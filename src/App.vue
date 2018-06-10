@@ -1,19 +1,26 @@
 <template>
   <div id="app">
+    <TopBar/>
     <h1>Nice Pictures!</h1>
+    <MainSection/>
+    <BottomBar/>
   </div>
 </template>
 
 <script>
-
-export default {
-  name: 'GIF Animations',
-  components: {
-    
+  import TopBar from './components/TopBar';
+  import MainSection from './components/MainSection';
+  import BottomBar from './components/BottomBar';
+  export default {
+    name: 'GIF Animations',
+    components: {
+      TopBar,
+      MainSection,
+      BottomBar
+    }
   }
-}
 </script>
 
 <style lang="scss">
-  @import './src/assets/scss/pages/main';
+  @import './src/assets/scss/components/base';
 </style>
