@@ -1,0 +1,18 @@
+@import "../helpers/all";
+
+html, body {
+  margin: 0px;
+}
+
+#app {
+  background: linear-gradient($bgGray1, $bgGray2);
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $textBlack;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
