@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <TopBar/>
-    <h1>Nice Pictures!</h1>
     <MainSection/>
     <BottomBar/>
   </div>

@@ -1,9 +1,20 @@
 <template>
   <section id="main-section">
-    <div v-for="(gif, index) in gifs">
-      <img v-bind:src="gif.gifurl">
-      <span>{{ gif.title }}</span>
-      <button>Go</button>
+    <h1 class="section-title">Nice Pictures!</h1>
+    <div class="main-container">
+      <div v-for="(gif, index) in gifs" class="item">
+        <div class="item-content">
+          <img v-bind:src="gif.gifurl" class="item-image">
+          <div class="item-content-text">
+            <div class="item-description">
+              {{ gif.title }}
+            </div>
+            <div class="item-button-wrapper">
+              <button class="item-button">Go</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -21,5 +32,5 @@
 </script>
 
 <style lang="scss" scoped>
-  @import './src/assets/scss/components/navigation';
+  @import './src/assets/scss/components/grid';
 </style>
