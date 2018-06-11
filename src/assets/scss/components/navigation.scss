@@ -17,7 +17,7 @@
         align-items: center;
         .navbar-brand{
           @include transition-hover-intent();
-          font-size: 24px;
+          font-size: $titleSize;
           font-weight: 700;
           &:link, &:visited{
             text-decoration: none;
@@ -30,7 +30,7 @@
         .navbar-link{
           @include transition-hover-intent();
           font-family: 'Roboto', sans-serif;
-          font-size: 16px;
+          font-size: $linkSize;
           line-height: 20px;
           padding: 15px;
           font-weight: 500;
@@ -54,7 +54,7 @@
         .navbar-text{
           display: inline-block;
           font-family: 'Roboto', sans-serif;
-          font-size: 14px;
+          font-size: $smallTextSize;
           color: $textGray;
           font-weight: 500;
         }
