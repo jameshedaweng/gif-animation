@@ -9,7 +9,7 @@ html, body {
 }
 
 #app {
-  background: linear-gradient($bgGray1, $bgGray2);
+  background: $bgGray1;
   font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

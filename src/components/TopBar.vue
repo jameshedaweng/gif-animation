@@ -1,10 +1,12 @@
 <template>
   <div id="top-bar" class="navbar">
-    <div class="navbar-left">
-      <span>ACME Ltd.</span>
-    </div>
-    <div class="navbar-right">
-      <span>Welcome, James!</span>
+    <div class="navbar-container">
+      <div class="navbar-section navbar-left">
+        <span>ACME Ltd.</span>
+      </div>
+      <div class="navbar-section navbar-right">
+        <span>Welcome, James!</span>
+      </div>
     </div>
   </div>
 </template>

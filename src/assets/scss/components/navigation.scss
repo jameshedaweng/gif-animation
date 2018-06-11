@@ -1,1 +1,32 @@
 @import "../helpers/all";
+
+.navbar{
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  .navbar-container{
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    .navbar-section{
+      padding: 15px 10px;
+      span{
+        line-height: 20px;
+      }
+    }
+    @media all and (max-width: 767px) {
+      padding: 0px 15px;
+    }
+  }
+  &#top-bar{
+    top: 0;
+    background-color: $white;
+    box-shadow: 0px 0px 5px 0px $shadow;
+  }
+  &#bottom-bar{
+    bottom: 0;
+    background-color: $white;
+    box-shadow: 0px 0px 5px 0px $shadow;
+  }
+}
