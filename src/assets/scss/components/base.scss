@@ -20,9 +20,8 @@ html, body {
 h1{
   font-family: 'Roboto', sans-serif;
   font-size: $titleSize;
-  letter-spacing: 0.01em;
   margin: 0px;
-  color: $textBlack;
+  color: $textGray;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 400;
 }
