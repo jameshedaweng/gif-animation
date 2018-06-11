@@ -9,7 +9,7 @@ html, body {
 }
 
 #app {
-  background: $bgGray1;
+  background: $bgGray;
   font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,6 +17,11 @@ html, body {
 }
 
 h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.01em;
   margin: 0px;
+  color: $textBlack;
+  text-transform: uppercase;
+  font-weight: 900;
 }

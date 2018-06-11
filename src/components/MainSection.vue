@@ -1,8 +1,8 @@
 <template>
   <section id="main-section">
-    <h1 class="section-title">Nice Pictures!</h1>
+    <h1 class="section-title">Nice Pictures</h1>
     <div class="main-container">
-      <div v-for="(gif, index) in gifs" class="item">
+      <div v-for="(gif, index) in gifs" v-bind:key="index" class="item">
         <div class="item-content">
           <img v-bind:src="gif.gifurl" class="item-image">
           <div class="item-content-text">

@@ -1,0 +1,6 @@
+@mixin transition-hover-intent(){
+  -webkit-transition: .2s linear .1s;
+  -moz-transition: .2s linear .1s;
+  -o-transition: .2s linear .1s;
+  transition: .2s linear .1s;
+}

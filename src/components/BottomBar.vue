@@ -2,7 +2,10 @@
   <div id="bottom-bar" class="navbar">
     <div class="navbar-container">
       <div class="navbar-section navbar-left">
-        <span>8 users online</span>
+        <div class="navbar-text-wrapper">
+          <span class="online-indicator"></span>
+          <span class="navbar-text">8 users online</span>
+        </div>
       </div>
     </div>
   </div>
